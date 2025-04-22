@@ -2,6 +2,8 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
+from sklearn.datasets import load_iris
+
 
 # Load and prepare the Iris dataset
 iris = load_iris()
